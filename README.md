@@ -3,6 +3,7 @@
 This code solves a regression problem. Two methods are implemented:
 + for linear regression (KQS)
 + for quadratic functions, transformed as a linear problem
+It returns the m, t (or quadratic: a, lambda) parameter and the residuals (y - y_hat).
 
 ## Structure:
 + datapoints = build object where a datapoint consist of a week and product price
